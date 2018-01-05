@@ -1,11 +1,6 @@
 # Tensorflow Basics Tutorial
 ![](https://lh3.googleusercontent.com/hIViPosdbSGUpLmPnP2WqL9EmvoVOXW7dy6nztmY5NZ9_u5lumMz4sQjjsBZ2QxjyZZCIPgucD2rhdL5uR7K0vLi09CEJYY=s688)
 
-
-
-
-
-[![N|Solid](https://vignette1.wikia.nocookie.net/ichc-channel/images/7/70/Powered_by_google.png/revision/latest?cb=20160331203712)](https://nodesource.com/products/nsolid)
 # What is Tensorflow?
 - A software framework for building and deploying machine learning models.
 - Tensorflow gives you the basic building blocks that you need to design,train and deploy machine learning models.
