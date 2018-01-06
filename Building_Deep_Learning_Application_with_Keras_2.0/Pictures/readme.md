@@ -42,3 +42,44 @@
 
 ***
 
+# Train-Test-Evaluation flow with Keras:
+
+### 1. Create a neural network model:
+```sh
+model = keras.models.Sequential()
+# model object represents -> neural network we are building
+# Once we have model object we add layers to neural network
+model.add(keras.layers.Dense())
+# Final step of defining a model is to compile.
+# Keras uses tensorflow model for backend compilation.
+model.compile(loss='mean_squared_error',optimizer='adam')
+# To compile we need to tell keras two important things:
+# 1st -> Tell how we want to measure the accuracy of each prediction during training phase [Loss Function]
+# 2nd -> Keras Optimizer Algorithm
+```
+### 2. Training Phase:
+- To train the model, we call model.fit and pass in the training data and the expected output for the training data. 
+- Keras will run the training process and print out the progress to the console. 
+- When training completes, it will report the final accuracy that was achieved with the training data. Once the model is trained, we're ready for the testing phase.
+
+```sh
+#  To train the model, we call model.fit and pass in the training data and the expected output for the training data
+model.fit(training_data,expected_output)
+```
+
+### 3. Testing Phase:
+```sh
+error_rate = model.evaluate(testing_data,expected_output)
+# When we are happy with accuracy we can save model to a file.
+# To do that we call model.save
+model.save("trained_model.h5")
+# This model contains everything we need to use our model in another program.
+```
+
+### 4. Evaluation Phase:
+We'll load our previously trained model by calling the load model function and passing in a file name. And then, to use the model to make new predictions, we just call the predict function and pass in the new data we want predictions for.
+```sh
+model = keras.models.load_model('trained_model.h5')
+predictions = model.predict(new_data)
+```
+
