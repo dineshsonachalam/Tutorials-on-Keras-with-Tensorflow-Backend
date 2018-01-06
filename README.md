@@ -182,13 +182,6 @@ Take the following steps to install TensorFlow in an Anaconda environment:
 
 
 
-# To Do:
-
-1. - [ ]   [Learn TensorFlow and deep learning, without a Ph.D.]()https://cloud.google.com/blog/big-data/2017/01/learn-tensorflow-and-deep-learning-without-a-phd
-2. - [ ]  [Stanford tensorflow Tutorials](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
-3. - [ ]  [MIT Self Driving Cars](https://selfdrivingcars.mit.edu/resources/)
-4. - [ ] [Pathyway to Deep Learning](http://adventuresinmachinelearning.com/neural-networks-tutorial/)
-
 
 
 
