@@ -17,10 +17,4 @@
 
 ***
 
-# Keras - Pretrained Model
-- Keras provides several popular image recognition models built in. 
-- Just by installing Keras, you have access to pre-trained image recognition models, that you can use in your own projects. 
-- The image recognition models included with Keras, are all trained to recognize images from the Imagenet data set. 
-- The Imagenet data set, is a collection of millions of pictures of objects that have been labeled, so you can use them to train computers to recognize those objects.
 
-![](https://github.com/dineshsonachalam/Tensorflow-Basics/blob/master/Building_Deep_Learning_Application_with_Keras_2.0/Pictures/8.png)
