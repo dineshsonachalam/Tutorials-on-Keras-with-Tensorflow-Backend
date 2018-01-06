@@ -19,9 +19,15 @@
 
 # Basic Questions:
 1. What is a tensorflow session?
+
     An object that runs on the computation graph and tracks the state of each node in the graph.
 2. The Google Cloud SDK is a set of command-line utilities that can be used to interactive with the Google Cloud service from your local computer.
-True
+
+    True
+
+3. Before training a neural network, it's often necessary to scale the data so all the values are between 0 and 1.
+
+   True
 
 
 ***
@@ -178,7 +184,7 @@ Take the following steps to install TensorFlow in an Anaconda environment:
 
 # To Do:
 
-1. - [ ]  [Building and Deploying Deep Learning Applications with TensorFlow](https://www.lynda.com/Google-TensorFlow-tutorials/Building-Deploying-Applications-TensorFlow/601800-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3atensorflow%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)
+1. - [x] [Building and Deploying Deep Learning Applications with TensorFlow](https://www.lynda.com/Google-TensorFlow-tutorials/Building-Deploying-Applications-TensorFlow/601800-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3atensorflow%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)
 2. - [ ]  [Building Deep Learning Applications with Keras 2.0](https://www.lynda.com/Google-TensorFlow-tutorials/Building-Deep-Learning-Applications-Keras-2-0/601801-2.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3atensorflow%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)
 3. - [ ]   [Learn TensorFlow and deep learning, without a Ph.D.]()https://cloud.google.com/blog/big-data/2017/01/learn-tensorflow-and-deep-learning-without-a-phd
 4. - [ ]  [Stanford tensorflow Tutorials](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
