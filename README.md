@@ -19,9 +19,15 @@
 
 # Basic Questions:
 1. What is a tensorflow session?
+
     An object that runs on the computation graph and tracks the state of each node in the graph.
 2. The Google Cloud SDK is a set of command-line utilities that can be used to interactive with the Google Cloud service from your local computer.
-True
+
+    True
+
+3. Before training a neural network, it's often necessary to scale the data so all the values are between 0 and 1.
+
+   True
 
 
 ***
