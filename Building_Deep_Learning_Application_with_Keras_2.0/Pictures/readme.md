@@ -46,6 +46,9 @@
 ![Neural Network](https://www.pyimagesearch.com/wp-content/uploads/2016/08/simple_neural_network_header.jpg)
 
 ***
+# Biological Neuron vs Aritifical Neural Network
+![Neural Network](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras+Python+Tutorial/content_content_neuron.png)
+***
 
 # Train-Test-Evaluation flow with Keras:
 
