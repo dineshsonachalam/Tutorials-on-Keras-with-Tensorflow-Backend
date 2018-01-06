@@ -42,3 +42,7 @@
 - Now here on line 28 we just loop through the predictions and print out each result. Okay, before we run the code, there's a couple of things we need to mention. 
 - The first time you run this code, Keras will connect to the Internet and download the latest version of the ResNet 50 model. This means you'll need Internet access to run it, and around 100 megabytes of data will be downloaded.
 
+***
+
+# Export Keras logs in TensorFlow format:
+TensorFlow comes with a great web-based tool called TensorBoard that lets us visualize our model's structure and monitor its training. To use TensorBoard we need our keras model to write log files in the format that TensorBoard can read. TensorBoard uses the information in these log files to generate its visualizations, let's add TensorBoard logging to our keras model. 
