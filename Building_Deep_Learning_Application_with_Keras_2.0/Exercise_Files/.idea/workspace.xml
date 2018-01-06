@@ -35,11 +35,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3_Train_Model.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3_Train_Model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3_Train_Model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+            <state relative-caret-position="910">
+              <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5_save_trained_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5_save_trained_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_Predict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4_Predict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6_Load_Saved_Model.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6_Load_Saved_Model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -62,6 +98,9 @@
         <option value="$PROJECT_DIR$/1_preprocess_data.py" />
         <option value="$PROJECT_DIR$/2_Create_model_keras.py" />
         <option value="$PROJECT_DIR$/3_Train_Model.py" />
+        <option value="$PROJECT_DIR$/5_save_trained_model.py" />
+        <option value="$PROJECT_DIR$/4_Predict.py" />
+        <option value="$PROJECT_DIR$/6_Load_Saved_Model.py" />
       </list>
     </option>
   </component>
@@ -116,24 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3_Train_Model">
-    <configuration name="1_preprocess_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Exercise_Files" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_preprocess_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.4_Predict">
     <configuration name="2_Create_model_keras" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,16 +190,71 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.1_preprocess_data" />
-      <item index="1" class="java.lang.String" itemvalue="Python.2_Create_model_keras" />
-      <item index="2" class="java.lang.String" itemvalue="Python.3_Train_Model" />
+    <configuration name="4_Predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Exercise_Files" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_Predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="5_save_trained_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Exercise_Files" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_save_trained_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="6_Load_Saved_Model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Exercise_Files" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_Load_Saved_Model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.2_Create_model_keras" />
+      <item index="1" class="java.lang.String" itemvalue="Python.3_Train_Model" />
+      <item index="2" class="java.lang.String" itemvalue="Python.4_Predict" />
+      <item index="3" class="java.lang.String" itemvalue="Python.5_save_trained_model" />
+      <item index="4" class="java.lang.String" itemvalue="Python.6_Load_Saved_Model" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.3_Train_Model" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2_Create_model_keras" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1_preprocess_data" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.4_Predict" />
+        <item index="1" class="java.lang.String" itemvalue="Python.6_Load_Saved_Model" />
+        <item index="2" class="java.lang.String" itemvalue="Python.5_save_trained_model" />
+        <item index="3" class="java.lang.String" itemvalue="Python.3_Train_Model" />
+        <item index="4" class="java.lang.String" itemvalue="Python.2_Create_model_keras" />
       </list>
     </recent_temporary>
   </component>
@@ -248,8 +325,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3_Train_Model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        <state relative-caret-position="910">
+          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_save_trained_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_Predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Load_Saved_Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
