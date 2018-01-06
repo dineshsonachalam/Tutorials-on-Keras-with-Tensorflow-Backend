@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e5eba02-8801-44b0-b980-4952f620d22e" name="Default" comment="" />
+    <list default="true" id="76b0a8cd-cdd9-4d11-8369-789b3986ec3a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,35 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="1_Visualizing_the_computational_graph.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_Visualizing_the_computational_graph.py">
+      <file leaf-file-name="export_model_for_cloud.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/export_model_for_cloud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_Visualize_training.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2_Visualize_training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3_Custom_visualization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3_Custom_visualization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="93" column="54" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="54" />
+            <state relative-caret-position="365">
+              <caret line="152" column="51" lean-forward="false" selection-start-line="152" selection-start-column="51" selection-end-line="152" selection-end-column="51" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -59,9 +35,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1_Visualizing_the_computational_graph.py" />
-        <option value="$PROJECT_DIR$/3_Custom_visualization.py" />
-        <option value="$PROJECT_DIR$/2_Visualize_training.py" />
+        <option value="$PROJECT_DIR$/export_model_for_cloud.py" />
       </list>
     </option>
   </component>
@@ -90,19 +64,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="2. Tensorboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2. Tensorboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2. Tensorboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2. Tensorboard" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2. Tensorboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2. Tensorboard" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-              <item name="run 2 with 20 nodes" type="462c0819:PsiDirectoryNode" />
+              <item name="3. Using a Trained TensorFlow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3. Using a Trained TensorFlow" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,8 +75,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3. Using a Trained TensorFlow" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,8 +90,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2_Visualize_training">
-    <configuration name="1_Visualizing_the_computational_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.export_model_for_cloud">
+    <configuration name="export_model_for_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -139,56 +102,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="2. Tensorboard" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Visualizing_the_computational_graph.py" />
+      <module name="3. Using a Trained TensorFlow" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/export_model_for_cloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="2_Visualize_training" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="2. Tensorboard" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Visualize_training.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="3_Custom_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="2. Tensorboard" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_Custom_visualization.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.1_Visualizing_the_computational_graph" />
-      <item index="1" class="java.lang.String" itemvalue="Python.2_Visualize_training" />
-      <item index="2" class="java.lang.String" itemvalue="Python.3_Custom_visualization" />
-    </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.2_Visualize_training" />
-        <item index="1" class="java.lang.String" itemvalue="Python.3_Custom_visualization" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1_Visualizing_the_computational_graph" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.export_model_for_cloud" />
       </list>
     </recent_temporary>
   </component>
@@ -197,22 +119,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e5eba02-8801-44b0-b980-4952f620d22e" name="Default" comment="" />
-      <created>1515233485254</created>
+      <changelist id="76b0a8cd-cdd9-4d11-8369-789b3986ec3a" name="Default" comment="" />
+      <created>1515240370274</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1515233485254</updated>
+      <updated>1515240370274</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -237,30 +158,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1_Visualizing_the_computational_graph.py">
+    <entry file="file://$PROJECT_DIR$/export_model_for_cloud.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_Custom_visualization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="93" column="54" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Visualize_training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="365">
+          <caret line="152" column="51" lean-forward="false" selection-start-line="152" selection-start-column="51" selection-end-line="152" selection-end-column="51" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
