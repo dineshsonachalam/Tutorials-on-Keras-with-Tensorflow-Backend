@@ -91,3 +91,65 @@ model = keras.models.load_model('trained_model.h5')
 predictions = model.predict(new_data)
 ```
 
+
+*** 
+# Keras Sequential Model API
+
+When designing a neural network in Keras, 
+- we have to decide how many layers there should be 
+- how many nodes should be in each layer 
+- how the layers should be connected to each other.
+
+Bigger models with more layers and more nodes can model more complex operations, but if you make the model too big, it will be slow to train and is likely to overfit the data set. The easiest way to build a neural network in Keras is to use the so-called **sequential model API.**
+
+Create an empty sequential model object and then add layers to it in sequence
+
+```sh
+# We create an empty neural network by creating a new sequential object
+model = keras.models.Sequential()
+#Then, we can add as many layers as we want by calling model.add and passing in a new layer object.
+model.add(Dense(32,input_dim=9))
+# We are adding a new densely connected layer with 32 nodes to the neural network.
+#  A densely connected layer is one where every node is connected to every node in the previous layer
+# since this is the very first layer in the neural network, we have to tell it how many input nodes there are by passing in input dim=9.
+
+# We can add more layers
+model.add(Dense(128))
+# This line adds another layer with 128 densely connected nodes, and this line will add the final layer with one output node.
+model.add(Dense(1))
+# This line will add the final layer with one output node
+# Final step is to compile
+model.compile(optimizer='adam',loss='mse')
+# The optimizer algorithm is used to train the neural network.
+# The loss function is how the training process measures how right or how wrong your neural network's predictions are. 
+# In this case, I've used the adam optimizer function which is a common and powerful optimizer, and the mean squared error loss function.
+```
+
+
+#### What is an activation function?
+Activation Function takes the sum of weighted input (w1*x1 + w2*x2 + w3*x3 + 1*b) as an argument and return the output of the neuron.
+
+The activation function is mostly used to make a non-linear transformation which allows us to fit nonlinear hypotheses or to estimate the complex functions. There are multiple activation functions, like: “Sigmoid”, “Tanh”, ReLu and many other.
+
+#### Customizing Layers:
+Keras lets us choose which activation function is used for each layer by passing in the name of the activation function we want to use. In this case, I've told it to use a rectified linear unit, or RELU, activation function.
+```sh
+model.add(Dense(number_of_neurons,activation='relu'))
+# Here 'relu'-rectified linear unit is an activation function.
+```
+Keras let us choose which activation function is used for each layer by passing the activation function we want to use.
+
+#### Other types of layers supported:
+**1. Convolutional layers:**
+These are typically used to process images or spacial data.
+```sh
+keras.layers.convolutional.Conv2D()
+```
+**2. Reccurent layers:**
+Recurrent layers are special layers that have a memory built into each neuron. These are used to process sequential data like words in a sentence where the previous data points are important to understanding the next data point.
+
+```sh
+keras.layers.reccurent.LSTM()
+```
+
+
