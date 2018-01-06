@@ -28,3 +28,5 @@ Here,
 At the top of TensorBoard click Histograms to see our new histogram. And then expand the logging subsection. Now to look at one of these charts in more detail let's click the Expand button. This chart shows us the range of predictions our neural network made each step during training. Back here at step zero, we can see the predictions made were very low and all grouped together. But as we move forward in time, we can see that the learn to make predictions with a wider range of values.
 
 Because our data was scaled to the zero to one range, we'd expect the predictions right out of the neural network to roughly cover that same zero to one range.
+![](https://github.com/dineshsonachalam/Tensorflow-Basics/blob/master/Pictures/histogram_1.png)
+![](https://github.com/dineshsonachalam/Tensorflow-Basics/blob/master/Pictures/histogram_2.png)
