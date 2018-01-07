@@ -179,6 +179,10 @@ Take the following steps to install TensorFlow in an Anaconda environment:
 
 `(tensorflow)C:> pip install --ignore-installed --upgrade tensorflow-gpu `
 
+# To do:
+1. - [ ] [Introduction to implement neural networks in tensorflow](https://www.analyticsvidhya.com/blog/2016/10/an-introduction-to-implementing-neural-networks-using-tensorflow/)
+2. - [ ] [Tutorial: Optimizing Neural Networks using Keras (with Image recognition case study)](https://www.analyticsvidhya.com/blog/2016/10/tutorial-optimizing-neural-networks-using-keras-with-image-recognition-case-study/)
+3. - [ ] [Practice Problem: Identify the Digits](https://datahack.analyticsvidhya.com/contest/practice-problem-identify-the-digits/)
 
 
 
