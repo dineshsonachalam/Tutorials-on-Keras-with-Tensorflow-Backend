@@ -11,9 +11,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Distribution / packaging
 .Python
 env/
@@ -76,7 +73,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+
 
 # pyenv
 .python-version
@@ -95,28 +92,8 @@ celerybeat-schedule
 venv/
 ENV/
 
-# Spyder project settings
-.spyderproject
-.spyproject
 
-# Rope project settings
-.ropeproject
 
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.Rproj.user
-
-# Temporary OS files
-.DS_Store
-.Rhistory
-
-# Ipython Files to Ignore
-.ipynb_checkpoints
-.nbgrader.log
-todos.ipynb
 
 # Git igone
 Tensorflow-keras-Basics\Keras_Tutorial\Digit_Recognizer_Kaggle\data
