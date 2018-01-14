@@ -1,6 +1,11 @@
 # Git Ignore csv file
 *.csv
 
+
+*.pyc
+ctr-prediction/
+helping-santas-helpers/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -112,3 +117,6 @@ ENV/
 .ipynb_checkpoints
 .nbgrader.log
 todos.ipynb
+
+# Git igone
+Tensorflow-keras-Basics\Keras_Tutorial\Digit_Recognizer_Kaggle\data
