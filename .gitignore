@@ -11,6 +11,9 @@ Keras_Tutorial/Part_1_Basic_Exercises/.idea
 Keras_Tutorial/Part_2_Digit_Recognition/.ipynb_checkpoints
 Keras_Tutorial/Part_2_Digit_Recognition/debug.log
 
+Keras_Tutorial/Part_3_Word2Vec_Pretrained_Model/data
+keras_Tutorial/Part_3_Word2Vec_Pretrained_Model/.ipynb_checkpoints
+
 
 Keras_Tutorial/Part_4_Building_a_Simple_Aggregation_Classifier/dev__.csv
 Keras_Tutorial/Part_4_Building_a_Simple_Aggregation_Classifier/data
