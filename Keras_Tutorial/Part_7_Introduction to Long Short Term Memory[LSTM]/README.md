@@ -23,11 +23,11 @@ Here in RNN , the networks are considering the trend of stock prices, before pre
 
 A typical RNN looks like this.
 
-![https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/05231650/rnn-neuron-196x300.png]()
+![](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/05231650/rnn-neuron-196x300.png)
 
 Here every prediction at time t(h_t) is dependent on all previous prediction and the information learned from them.
 
-![https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/06022525/bptt-768x313.png]()
+![](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/06022525/bptt-768x313.png])
 
 RNNs can solve our purpose of sequence handling to a great extent but not entirely. RNNs are great when it comes to short contexts.
 
@@ -99,7 +99,7 @@ Now all these broken pieces of information cannot be served on mainstream media.
 
 Now let’s get into the details of the architecture of LSTM network:
 
-![https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/10131302/13-768x295.png]()
+![](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/10131302/13-768x295.png)
 
 Now, this is nowhere close to the simplified version which we saw before, but let me walk you through it. A typical LSTM network is comprised of different memory blocks called **cells**(the rectangles that we see in the image)**. ** There are two states that are being transferred to the next cell; the **cell state** and the hidden state**. The memory blocks are responsible for remembering things and manipulations to this memory is done through three major mechanisms, called **gates. Each of them is being discussed below.
 
@@ -125,7 +125,7 @@ Okay, let’s take another example where the LSTM is analyzing a sentence:
 
 Now the important information here is that “Bob” knows swimming and that he has served the Navy for four years. This can be added to the cell state, however, the fact that he told all this over the phone is a less important fact and can be ignored. This process of adding some new information can be done via the **input** gate.
 
-![https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/10131330/16.png]()
+![](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/10131330/16.png)
 
 The input gate is responsible for the addition of information to the cell state. This addition of information is basically three-step process as seen from the diagram above.
 
@@ -137,7 +137,7 @@ The input gate is responsible for the addition of information to the cell state.
 
 Not all information that runs along the cell state, is fit for being output at a certain time. We’ll visualize this with an example:
 
-![https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/10015531/b2_19-768x109.png]()
+![](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/12/10015531/b2_19-768x109.png)
 
 In this phrase, there could be a number of options for the empty space. But we know that the current input of *‘brave’,* is an adjective that is used to describe a noun. Thus, whatever word follows, has a strong tendency of being a noun. And thus, Bob could be an apt output.
 
