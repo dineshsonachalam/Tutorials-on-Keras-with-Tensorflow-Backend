@@ -2,6 +2,9 @@
 
 */.ipynb_checkpoints
 
+Audio_data_analysis/1_A_Simple_Tensorflow_Speech_Recognizer/data
+Audio_data_analysis/2_Dead_Simple_Speech_Recognizer/data
+
 
 Keras_Tutorial/Part_1_Basic_Exercises/bay.jpg
 Keras_Tutorial/Part_1_Basic_Exercises/trained_model.h5
